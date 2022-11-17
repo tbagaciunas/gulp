@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../../../../Dokumentai/Gulp template"
+	},
+	{
+		"path": ".."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "egzas"
+  }
+}

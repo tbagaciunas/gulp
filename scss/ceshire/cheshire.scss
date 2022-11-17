@@ -1,0 +1,121 @@
+.cheshire {
+
+    top: -132px;
+    left: 0px;
+    width: 1400px;
+    height: 933px;
+    /* UI Properties */
+    background: transparent url(/app/img/photo-1480714378408-67cf0d13bc1b.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: -1;
+
+    
+}
+
+
+
+
+.cheshire-hygiene {
+
+    margin-top: -26px;
+    margin-left: 29px;
+width: 150px;
+height: 45px;
+/* UI Properties */
+opacity: 1;
+/* display: flex;
+justify-content: flex-start;
+align-items: flex-start; */
+
+
+}
+
+
+.mainform{
+    margin-top: -126px;
+    margin-left: 892px;
+    justify-content: center;
+    background-color: #fff;
+    width: 367px;
+    height: 367px;
+    position: relative;
+    
+  }
+  .form__title{
+    width:367px;
+    height: 57px;
+    padding-top: 17px;
+    padding-left: 50px;
+    color: #000;
+    font-size: 20px;
+    background-color: #ccc;
+    font-family: "OpenSans", sans-serif;
+    font-weight: 700;
+    border: 0;
+  }
+  
+  
+  .mainform button{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 61px;
+    margin-top: 50px;
+    font-size: 20px;
+    width:367px;
+    padding:10px;
+    border:none;
+    background:#41D395;
+    color:#fff;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+
+    letter-spacing: 0px;
+color: #FFFFFF;
+    
+    }
+    
+
+    #free {
+
+        color: orange
+    }
+    .mainform button:hover{
+      background:rgb(243, 141, 63);
+    }
+  
+  .mainform input{
+    padding-left: 50px;
+    margin-top:40px ;
+    width:300px;
+    color: #000;
+    border:0 ;
+    border-bottom: 1px solid #D6D6D6;
+  
+  }
+  .mainform input::placeholder{
+    color: #ccc;
+  }
+  
+  .mainform input:focus{
+    outline: 0;
+    border-color:#DEDEDE ;
+  }
+
+
+  /* tekstas */
+
+  #explained {
+
+margin-top: -162px;
+margin-left: 147px;
+
+
+
+font: normal normal 600 36px/43px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+  }

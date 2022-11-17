@@ -1,0 +1,203 @@
+.mountains {
+
+    width: 1400px;
+    height: 933px;
+    /* UI Properties */
+    background: transparent url(/app/img/christoffer-engstrom-503481-unsplash.png) 0% 0% no-repeat padding-box;
+  z-index: -1;
+    position: absolute;
+  }
+  
+  h1.tabsh1 {
+  
+    text-align: left;
+  font: normal normal 600 36px/40px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-right: 586px ;
+  margin-top: 150px;
+  float: right;
+  }
+  
+  /* tabs */
+  
+  
+  
+  img.tab1 {
+  
+    display: flex;
+    
+   flex-direction: column;
+   gap: 20px;
+   position: relative;
+   /* text-align: justify; */
+   z-index: -0.1;
+   transition:  0.6s;
+  
+  }
+  
+  img.tab1:hover {
+  
+    transform:  scale(110%);
+    cursor: pointer;
+  box-shadow:2px #000 ;
+  
+  }
+  
+  .tabs {
+  
+    margin-left: 151px;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 145px;
+  }
+  
+  .tab2  {
+  
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    z-index: 3;
+  }
+  
+  
+  
+  p.clear {
+    clear: both;
+    float: right;
+    margin-right: 582px;
+    margin-top: 34px;
+    font: normal normal normal 14px/20px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-align: left;
+    
+  }
+  
+  .rotate  {
+  
+    transform: rotate(-45deg);
+  /* UI Properties */
+  /* text-align: center; */
+  font: normal normal 600 14px/20px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-left: 23px;
+  margin-top: 30px;
+  position: absolute;
+  z-index: 5;
+  margin-top: -62px;
+  }
+  
+  .rotate2  {
+  
+    transform: rotate(-45deg);
+  /* UI Properties */
+  /* text-align: center; */
+  font: normal normal 600 14px/20px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-left: 36px;
+  margin-top: 30px;
+  position: absolute;
+  z-index: 5;
+  margin-top: -62px;
+  }
+  
+  .rotate3  {
+  
+    transform: rotate(-45deg);
+  /* UI Properties */
+  /* text-align: center; */
+  font: normal normal 600 14px/20px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-left: 28px;
+  margin-top: 30px;
+  position: absolute;
+  z-index: 5;
+  margin-top: -62px;
+  }
+  
+  .noselect {
+  
+    user-select: none;
+    cursor: pointer;
+  }
+  
+  
+  /* gallery */
+  
+  .kopustas img {
+    
+    position: relative;
+  }
+  
+  h1.kopustas {
+   position: absolute;
+   text-align: right;
+   font: normal normal 600 20px/24px Montserrat;
+   letter-spacing: 0px;
+   color: #FFFFFF;
+  }
+  
+  
+  .img-kopustas {
+  
+    position: relative;
+    
+    width: 400px;
+    
+    }
+    
+   .maistas0 {
+    margin-right: -688px;
+    margin-top: -396px;
+    float: right;
+    transition: 0.6s;
+    -webkit-transition: all 1s ease;
+   }
+    
+  
+   .nature:hover {
+  
+    transform: scale(110%);
+  
+   }
+    .topleft {
+    
+    position: absolute;
+    
+    font: normal normal 600 20px/24px Montserrat;
+    color: white;
+    
+    top: -319px;
+    
+    left: 957px;
+    
+    }
+  
+   .explore:hover {
+  
+      background: #E27866 0% 0% no-repeat padding-box;
+  opacity: 0.8;
+  transition: 0.5s;
+  
+    }
+  
+    .maistas {
+      position: relative;
+      top: -405px;
+      left: 1098px;
+    }
+  
+    .maistas2 {
+      position: relative;
+      top: -202px;
+      left: 713px;
+    }
