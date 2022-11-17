@@ -859,7 +859,7 @@ opacity: 1;
     width: 1400px;
     height: 933px;
     /* UI Properties */
-    background: transparent url(app/img/christoffer-engstrom-503481-unsplash.png) 0% 0% no-repeat padding-box;
+    background: transparent url('app/img/christoffer-engstrom-503481-unsplash.png') 0% 0% no-repeat padding-box;
   z-index: -1;
     position: absolute;
   }
