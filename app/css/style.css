@@ -1,0 +1,1761 @@
+.cheshire {
+
+    top: -132px;
+    left: 0px;
+    width: 1400px;
+    height: 933px;
+    /* UI Properties */
+    background: transparent url(/app/img/photo-1480714378408-67cf0d13bc1b.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: -1;
+
+    
+}
+
+
+
+
+.cheshire-hygiene {
+
+    margin-top: -26px;
+    margin-left: 29px;
+width: 150px;
+height: 45px;
+/* UI Properties */
+opacity: 1;
+/* display: flex;
+justify-content: flex-start;
+align-items: flex-start; */
+
+
+}
+
+
+.mainform{
+    margin-top: -126px;
+    margin-left: 892px;
+    justify-content: center;
+    background-color: #fff;
+    width: 367px;
+    height: 367px;
+    position: relative;
+    
+  }
+  .form__title{
+    width:367px;
+    height: 57px;
+    padding-top: 17px;
+    padding-left: 50px;
+    color: #000;
+    font-size: 20px;
+    background-color: #ccc;
+    font-family: "OpenSans", sans-serif;
+    font-weight: 700;
+    border: 0;
+  }
+  
+  
+  .mainform button{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 61px;
+    margin-top: 50px;
+    font-size: 20px;
+    width:367px;
+    padding:10px;
+    border:none;
+    background:#41D395;
+    color:#fff;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+
+    letter-spacing: 0px;
+color: #FFFFFF;
+    
+    }
+    
+
+    #free {
+
+        color: orange
+    }
+    .mainform button:hover{
+      background:rgb(243, 141, 63);
+    }
+  
+  .mainform input{
+    padding-left: 50px;
+    margin-top:40px ;
+    width:300px;
+    color: #000;
+    border:0 ;
+    border-bottom: 1px solid #D6D6D6;
+  
+  }
+  .mainform input::placeholder{
+    color: #ccc;
+  }
+  
+  .mainform input:focus{
+    outline: 0;
+    border-color:#DEDEDE ;
+  }
+
+
+  /* tekstas */
+
+  #explained {
+
+margin-top: -162px;
+margin-left: 147px;
+
+
+
+font: normal normal 600 36px/43px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+  }
+
+  
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+  #divider {
+
+    margin-top: 19px;
+margin-left: 142px;
+width: 84px;
+height: 22px;
+
+background: transparent url('/app/img/divider_white_u72.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+  }
+
+  #insipidity {
+    color: #FFFFFF;
+    text-align: left;
+    font: normal normal 600 16px/23px Montserrat;
+    letter-spacing: 0px;
+    opacity: 0.8;
+    margin-top: 13px;
+    margin-left: 142px;
+    position: relative;
+  }
+
+ img.biglogo {
+    margin-top: 303px;
+    margin-left: 142px;
+width: 247px;
+height: 108px;
+
+opacity: 1;
+  }
+
+  .rectangle23 {
+margin-top: 87px;
+margin-left: 142px;
+width: 135px;
+height: 42px;
+
+border: 2px solid #FFFFFF;
+opacity: 1;
+background: transparent;
+color: white;
+font-family: montserrat;
+  }
+
+  .rectangle23:hover {
+
+    background-color: white;
+    color:black;
+
+}
+
+
+/* checkbox */
+
+input#monthly  {
+
+  margin-left: 20px;
+}
+#monthly2 {
+
+margin-top: 0px;
+margin-right: 20px;
+}
+#yearly2 {
+
+  margin-top: 0px;
+  margin-left: 20px;
+  }
+
+input[type="radio"] {
+
+  
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  border: 3px solid yellowgreen;
+  position: relative;
+  display:inline-flex;
+}
+
+input[type="radio"]::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: yellowgreen;
+  border-radius: 100px;
+  margin-top: 0;
+  margin-right: 0;
+  left: 0;
+  bottom: 0;
+  /* margin: auto; */
+  transform: scale(0);
+  transition: 0.3s;
+  border-radius: 100px;
+
+}
+
+input[type="radio"]:checked::before {
+
+  transform: scale(0.6);
+}
+
+/* footer */
+
+#cfooter {
+  padding-top: 20px;
+  top: 711px;
+  left: 0px;
+  width: 1400px;
+  height: 105px;
+  /* UI Properties */
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 3px #00000061;
+  opacity: 1;
+
+}
+ #cfooter h1 {
+/* Layout Properties */
+top: 730px;
+left: 151px;
+
+
+font: normal normal 600 20px/24px Montserrat;
+letter-spacing: 0px;
+color: #333333;
+opacity: 1;
+margin-left: 151px;
+}
+
+#cfooter p {
+
+  top: 759px;
+left: 152px;
+width: 394px;
+height: 38px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 14px/20px Montserrat;
+letter-spacing: 0px;
+color: #86878B;
+opacity: 1;
+margin-left: 151px;
+}
+
+#flogo {
+
+  margin-top: -44px;
+margin-left: 152px;
+width: 16px;
+height: 30px;
+/* UI Properties */
+background: transparent url(/app/img/facebook-logo.svg) 0% 0% no-repeat padding-box;
+opacity: 0.65;
+
+}
+
+
+
+#social {
+
+  display: flex;
+  justify-content: right;
+  text-align: right;
+  gap:  150px;
+  margin-right: 200px;
+  margin-top: -34px;
+}
+
+
+
+
+ /* panel */
+
+ 
+}
+
+
+/* customers */
+
+
+
+/* contacts */
+
+
+.contacts {
+
+  top: 1495px;
+  left: 0px;
+width: 1400px;
+height: 573px;
+background: #E27866 0% 0% no-repeat padding-box;
+position: absolute;
+}
+
+.contacts h1 {
+  margin-top: 50px;
+  left: 580px;
+text-align: center;
+width: 240px;
+height: 44px;
+/* UI Properties */
+text-align: center;
+font: normal normal 600 36px/43px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+position: absolute;
+
+}
+
+.contacts p {
+margin-top: 164px;
+left: -10px;
+width: 390px;
+height: 18px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 14px/20px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+position: absolute;
+}
+
+
+/* form */
+
+
+.aboutus {
+  left: 505px;
+  width: 390px;
+  height: 314px;
+  /* UI Properties */
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 6px #00000029;
+  border-radius: 5px;
+  position: absolute;
+  margin-top: 227px;
+  
+}
+
+
+
+.aboutus button{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 61px;
+  margin-top: 50px;
+  font-size: 20px;
+  width: 390px;
+  padding:10px;
+  border:none;
+  background:#41D395;
+  color:#fff;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 50px;
+
+
+  letter-spacing: 0px;
+color: #FFFFFF;
+  
+  }
+  
+
+  
+  .aboutus button:hover{
+    background:rgb(243, 141, 63);
+  }
+
+.aboutus input{
+  padding-left: 50px;
+  margin-top:40px ;
+  width:300px;
+  color: #000;
+  border:0 ;
+  border-bottom: 1px solid #D6D6D6;
+
+
+}
+.aboutus input::placeholder{
+  color: #ccc;
+}
+
+.aboutus input:focus{
+  outline: 0;
+  border-color:#DEDEDE ;
+}
+
+
+label {
+
+  text-align: left;
+  position: absolute;
+
+  margin-left: -124px;
+  display: inline-block;
+  margin-top: 42px;
+}
+
+
+.apacia {
+
+  top: 2062px;
+  left: 0px;
+  width: 1400px;
+  height: 124px;
+  /* UI Properties */
+  background: #1C1C1C 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.fb {
+  position: absolute;
+  top: 49px;
+  left: 139px;
+  width: 100%;
+  height: 100%;
+/* UI Properties */
+background: transparent url('/app/img/facebook-logo.svg') 0% 0% no-repeat padding-box;
+}
+
+
+.insta2 {
+  position: absolute;
+  top: 49px;
+  left: 258px;
+  width: 100%;
+  height: 100%;
+/* UI Properties */
+background: transparent url('/app/img/instagram-logo.svg') 0% 0% no-repeat padding-box;
+}
+
+
+#apaciap {
+
+  text-align: left;
+  font: normal normal normal 18px/14px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 0.5;
+  margin-left: 1186px;
+  margin-top: 90px;
+}
+
+#twit {
+  position: absolute;
+  top: 49px;
+  left: 395px;
+  width: 100%;
+  height: 100%;
+  background: transparent url('/app/img/twitter.svg') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+#pint {
+  position: absolute;
+  top: 49px;
+  left: 540px;
+  width: 100%;
+  height: 100%;
+  background: transparent url('/app/img/pinterest.svg') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+#custom {
+
+    top: 952px;
+  left: 0px;
+  width: 1400px;
+  height: 591px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  }
+  
+  #saying {
+  
+   margin-top: 6px;
+    left: 353px;
+    width: 696px;
+    height: 44px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal 600 36px/43px Montserrat;
+    letter-spacing: 0px;
+    color: #1C1C1C;
+    opacity: 1;
+  position: absolute;
+  }
+  
+  
+  /* chats */
+  #u229 {
+    top: 147px;
+    left: 171px;
+  width: 273px;
+  height: 147px;
+  /* UI Properties */
+  background: transparent url('img/u229.png') 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+  position: absolute;
+  }
+  
+  #rectangle15 {
+    top: 279px;
+    left: 194px;
+  width: 28px;
+  height: 28px;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  /* UI Properties */
+  background: #6696E2 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  position: absolute;
+  }
+  
+  #u229b {
+    top: 173px;
+    left: 563px;
+  width: 273px;
+  height: 125px;
+  /* UI Properties */
+  background: transparent url('img/u229.png') 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+  position: absolute;
+  }
+  
+  #rectangle15b {
+    top: 279px;
+    left: 601px;
+  width: 28px;
+  height: 28px;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  /* UI Properties */
+  background: #6696E2 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  position: absolute;
+  }
+  
+  #u229c {
+    top: 147px;
+    left: 955px;
+  width: 273px;
+  height: 147px;
+  /* UI Properties */
+  background: transparent url('img/u229.png') 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+  position: absolute;
+  }
+  
+  #rectangle15c {
+    top: 279px;
+    left: 978px;
+  width: 28px;
+  height: 28px;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  /* UI Properties */
+  background: #6696E2 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  position: absolute;
+  }
+  
+  /* p */
+  
+  #chat1 {
+  
+  
+      top: 85px;
+      left: -303px;
+  width: 230px;
+  height: 107px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 14px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  position: absolute;
+  z-index: 10;
+  }
+  
+  #chat2 {
+    top: 107px;
+    left: 90px;
+    width: 230px;
+    height: 85px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 14px Montserrat;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  position: absolute;
+  z-index: 10;
+  }
+  
+  #chat3 {
+   
+    top: 91px;
+    left: 483px;
+    width: 230px;
+    height: 85px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 14px Montserrat;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  position: absolute;
+  z-index: 10;
+  }
+  
+  
+  /* avatars */
+  
+  
+  #avatar1 {
+    top: 339px;
+    left: 173px;
+  width: 70px;
+  height: 70px;
+  /* UI Properties */
+  background: transparent url('img/avatar_2_u231.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  }
+  
+  #avatar1b {
+    top: 352px;
+    left: 260px;
+  width: 100px;
+  height: 24px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 20px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  position: absolute;
+  }
+  
+  #avatar2 {
+    top: 339px;
+    left: 565px;
+  width: 70px;
+  height: 70px;
+  /* UI Properties */
+  background: transparent url('img/avatar_2_u231.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  }
+  
+  #avatar2b {
+    top: 352px;
+    left: 656px;
+  width: 100px;
+  height: 24px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 20px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  position: absolute;
+  }
+  
+  
+  #avatar3 {
+    top: 339px;
+    left: 957px;
+  width: 70px;
+  height: 70px;
+  /* UI Properties */
+  background: transparent url('img/avatar_2_u231.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  }
+  
+  #avatar3b {
+    top: 352px;
+    left: 1051px;
+  width: 100px;
+  height: 24px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 20px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  position: absolute;
+  }
+  .features {
+    margin-top: 231px;
+    width: 1400px;
+    height: 596px;
+    /* UI Properties */
+    background: #1C1C1C 0% 0% no-repeat padding-box;
+    z-index: 1;
+  }
+  
+   .erat { 
+  margin-top: 90px;
+  margin-right: 319px;
+  width: 314px;
+  height: 80px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 600 30px/43px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 120;
+  float: right;
+  
+   }
+  
+   .eratp {
+  
+    text-align: left;
+  font: normal normal normal 14px/20px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  float: right;
+  margin-top: 226px;
+  margin-right: -447px;
+   }
+  
+   .featureslogo {
+  
+    width: 389px;
+  height: 169px;
+  margin-top: 226px;
+  margin-left: 200px;
+   }
+  
+   .eratp2 {
+  
+    text-align: left;
+  font: normal normal normal 14px/20px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  margin-left: 835px;
+  margin-top: -46px;
+   }
+  
+   .elipse {
+  
+  width: 50px;
+  height: 50px;
+  /* UI Properties */
+  background: #E27866 0% 0% no-repeat padding-box;
+  
+  border-radius: 100%;
+  align-items: center;
+  text-align: center;
+  margin-left: 767px;
+  margin-top: -83px;
+   }
+  
+   #eye {
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+  
+    width: 27px;
+  height: 18px;
+  color: white;
+  transition: 0.5s;
+   }
+  
+   .eratp3 {
+  
+    text-align: left;
+    font: normal normal normal 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-left: 835px;
+    margin-top: -46px;
+   }
+  
+   .elipse2 {
+  
+    width: 50px;
+  height: 50px;
+  /* UI Properties */
+  background: #E27866 0% 0% no-repeat padding-box;
+  
+  border-radius: 100%;
+  align-items: center;
+  text-align: center;
+  margin-left: 767px;
+  margin-top: 53px;
+   }
+  
+   #chat {
+  
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+  
+    width: 27px;
+  height: 18px;
+  color: rgb(19, 18, 18);
+  transition: 0.5s;
+   }
+  
+   #chat:hover {
+  
+  transform: rotate(360deg);
+   }
+  
+   #eye:hover { 
+    transform: scale(130%);
+    
+   }
+   .mountains {
+
+    width: 1400px;
+    height: 933px;
+    /* UI Properties */
+    background: transparent url(/app/img/christoffer-engstrom-503481-unsplash.png) 0% 0% no-repeat padding-box;
+  z-index: -1;
+    position: absolute;
+  }
+  
+  h1.tabsh1 {
+  
+    text-align: left;
+  font: normal normal 600 36px/40px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-right: 586px ;
+  margin-top: 150px;
+  float: right;
+  }
+  
+  /* tabs */
+  
+  
+  
+  img.tab1 {
+  
+    display: flex;
+    
+   flex-direction: column;
+   gap: 20px;
+   position: relative;
+   /* text-align: justify; */
+   z-index: -0.1;
+   transition:  0.6s;
+  
+  }
+  
+  img.tab1:hover {
+  
+    transform:  scale(110%);
+    cursor: pointer;
+  box-shadow:2px #000 ;
+  
+  }
+  
+  .tabs {
+  
+    margin-left: 151px;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 145px;
+  }
+  
+  .tab2  {
+  
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    z-index: 3;
+  }
+  
+  
+  
+  p.clear {
+    clear: both;
+    float: right;
+    margin-right: 582px;
+    margin-top: 34px;
+    font: normal normal normal 14px/20px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-align: left;
+    
+  }
+  
+  .rotate  {
+  
+    transform: rotate(-45deg);
+  /* UI Properties */
+  /* text-align: center; */
+  font: normal normal 600 14px/20px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-left: 23px;
+  margin-top: 30px;
+  position: absolute;
+  z-index: 5;
+  margin-top: -62px;
+  }
+  
+  .rotate2  {
+  
+    transform: rotate(-45deg);
+  /* UI Properties */
+  /* text-align: center; */
+  font: normal normal 600 14px/20px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-left: 36px;
+  margin-top: 30px;
+  position: absolute;
+  z-index: 5;
+  margin-top: -62px;
+  }
+  
+  .rotate3  {
+  
+    transform: rotate(-45deg);
+  /* UI Properties */
+  /* text-align: center; */
+  font: normal normal 600 14px/20px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-left: 28px;
+  margin-top: 30px;
+  position: absolute;
+  z-index: 5;
+  margin-top: -62px;
+  }
+  
+  .noselect {
+  
+    user-select: none;
+    cursor: pointer;
+  }
+  
+  
+  /* gallery */
+  
+  .kopustas img {
+    
+    position: relative;
+  }
+  
+  h1.kopustas {
+   position: absolute;
+   text-align: right;
+   font: normal normal 600 20px/24px Montserrat;
+   letter-spacing: 0px;
+   color: #FFFFFF;
+  }
+  
+  
+  .img-kopustas {
+  
+    position: relative;
+    
+    width: 400px;
+    
+    }
+    
+   .maistas0 {
+    margin-right: -688px;
+    margin-top: -396px;
+    float: right;
+    transition: 0.6s;
+    -webkit-transition: all 1s ease;
+   }
+    
+  
+   .nature:hover {
+  
+    transform: scale(110%);
+  
+   }
+    .topleft {
+    
+    position: absolute;
+    
+    font: normal normal 600 20px/24px Montserrat;
+    color: white;
+    
+    top: -319px;
+    
+    left: 957px;
+    
+    }
+  
+   .explore:hover {
+  
+      background: #E27866 0% 0% no-repeat padding-box;
+  opacity: 0.8;
+  transition: 0.5s;
+  
+    }
+  
+    .maistas {
+      position: relative;
+      top: -405px;
+      left: 1098px;
+    }
+  
+    .maistas2 {
+      position: relative;
+      top: -202px;
+      left: 713px;
+    }
+
+    .navbar {
+
+        top: 0px;
+    left: 0px;
+    width: 1400px;
+    height: 72px;
+    /* UI Properties */
+    background: #1C1C1C 0% 0% no-repeat padding-box;
+    opacity: 1;
+    
+    display: flex;
+    justify-content:right;
+    padding: 0 30px;
+    height: 50px;
+    line-height: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    }
+    
+    .navbar a {
+    
+    /* left: 808px;
+    width: 61px;
+    height: 18px; */
+    
+    /* text-align: center; */
+    font-weight: 100;
+    letter-spacing: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    
+    text-decoration: none;
+    color: white;
+    align-items:flex-end;
+    margin-right: 70px;
+    
+    /* padding: 5px; */
+    }
+    
+    .navbar a:hover {
+    
+        border-bottom: 3px solid orange;
+        margin-top: 7px;
+        transition: 0.4s;
+        color:orange;
+        
+    }
+
+    .panel  {
+
+        width: 1400px;
+      height: 592px;
+      /* UI Properties */
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+       }
+      
+       .awesome {
+        text-align: center;
+      font: normal normal 600 36px/43px Montserrat;
+      letter-spacing: 0px;
+      color: #212121;
+      margin-top: 98px;
+       }
+      
+       .awesomep {
+      
+        text-align: center;
+      font: normal normal normal 14px/20px Montserrat;
+      letter-spacing: 0px;
+      color: #86878B;
+      margin-top: 33px;
+       }
+      
+       .bottomline {
+        justify-content: center;
+        width: 64px;
+        height: 2px;
+        /* UI Properties */
+        background: transparent url(/app/img/divider_orange_u7\ copy\ 3.svg) 0% 0% no-repeat padding-box;
+        margin-top: 21px;
+        margin-left: 669px;
+       }
+      
+       /* elispe8 */
+      
+      
+      
+       .elipse8 {
+      content: "";
+        width: 50px;
+      height: 50px;
+      /* UI Properties */
+      border: 1px solid #E27866;
+      border-radius: 100%;
+      
+      margin-top: 77px;
+      margin-left: 314px;
+       }
+      
+       .elipse8 h3 {
+        width: 286px;
+        height: 24px;
+        /* UI Properties */
+        text-align: center;
+        font: normal normal normal 20px/24px Montserrat;
+        letter-spacing: 0px;
+        color: #333333;
+        margin-left: -110px;
+      margin-top: 85px;
+       }
+      
+       .elipse8 p {
+      
+        text-align: center;
+      font: normal normal normal 14px/20px Montserrat;
+      letter-spacing: 0px;
+      color: #86878B;
+      width: 286px;
+      height: 58px;
+      margin-top: 20px;
+      margin-left: -106px;
+       }
+      
+       /* elipse9 */
+      
+      
+       .elipse9 {
+        content: "";
+          width: 50px;
+        height: 50px;
+        /* UI Properties */
+        border: 1px solid #E27866;
+        border-radius: 100%;
+        
+        margin-top: -51px;
+        margin-left: 671px;
+         }
+        
+         .elipse9 h3 {
+          width: 286px;
+          height: 24px;
+          /* UI Properties */
+          text-align: center;
+          font: normal normal normal 20px/24px Montserrat;
+          letter-spacing: 0px;
+          color: #333333;
+          margin-left: -110px;
+        margin-top: 85px;
+         }
+        
+         .elipse9 p {
+        
+          text-align: center;
+        font: normal normal normal 14px/20px Montserrat;
+        letter-spacing: 0px;
+        color: #86878B;
+        width: 286px;
+        height: 58px;
+        margin-top: 20px;
+        margin-left: -110px;
+         }
+        /* elipse10 */
+      
+      
+        .elipse10 {
+          content: "";
+            width: 50px;
+          height: 50px;
+          /* UI Properties */
+          border: 1px solid #E27866;
+          border-radius: 100%;
+          
+          margin-top: -51px;
+          margin-left: 1013px;
+           }
+          
+           .elipse10 h3 {
+            width: 286px;
+            height: 24px;
+            /* UI Properties */
+            text-align: center;
+            font: normal normal normal 20px/24px Montserrat;
+            letter-spacing: 0px;
+            color: #333333;
+            margin-left: -110px;
+          margin-top: 85px;
+           }
+          
+           .elipse10 p {
+          
+            text-align: center;
+          font: normal normal normal 14px/20px Montserrat;
+          letter-spacing: 0px;
+          color: #86878B;
+          width: 286px;
+          height: 58px;
+          margin-top: 20px;
+          margin-left: -110px;
+           }
+      
+      
+           /* icons */
+      
+      #award {
+      
+        position: absolute;
+        left: 332px;
+        margin-top: -165px;
+        width: 17px;
+      height: 22px;
+      }
+      
+      #fan {
+        left: 686px;
+        position: absolute;
+        margin-top: -165px;
+      }
+      
+      #visa {
+      
+        left: 1027px;
+        position: absolute;
+        margin-top: -165px;
+      }
+
+      .prices {
+        position: absolute;
+        width: 1400px;
+        height: 883px;
+    /* UI Properties */
+        background: #6696E2 0% 0% no-repeat padding-box;
+       }
+    
+    
+    
+    .prices h1   {
+    
+    position: relative;
+    margin-top: 97px;
+    
+    text-align: center;
+    font: normal normal 600 36px/43px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;;
+    }
+    
+    .prices p {
+    
+    text-align: left;
+    font: normal normal normal 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-left: 518px;
+    margin-top: 90px;
+    }
+    
+    .separator5 {
+    margin-left: 668px;
+    margin-top: -71px;
+    content: "";
+    left: 668px;
+    width: 64px;
+    height: 2px;
+    /* UI Properties */
+    background: transparent url(/app/img/divider_orange_u7\ copy.svg) 0% 0% no-repeat padding-box;
+    }
+    
+    /* cards */
+    
+    
+    
+    /* card1 */
+    
+    
+    .card1 {
+    content: "";
+    left: 529px;
+    width: 343px;
+    height: 59px;
+    /* UI Properties */
+    background: transparent url() 0% 0% no-repeat padding-box;
+    border-radius: 5px 5px 0px 0px;
+    margin-left: 529px;
+    margin-top: 276px;
+    
+    }
+    
+    #professional {
+    width: 122px;
+    height: 24px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    top: 306px;
+    left: 128px;
+    z-index: 90;
+    position: absolute;
+    
+    }
+    
+    .dollar {
+    
+    font-size: 30px;
+    }
+    
+    #monthlypayment {
+    
+    top: 445px;
+    left: 122px;
+    width: 126px;
+    height: 18px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 14px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    position: absolute;
+    }
+    #cardheader1 {
+    
+    margin-top: -83px;
+    position: absolute;
+    }
+    
+    #cardheader2 {
+    
+    margin-top: 63px;
+    position: absolute;
+    }
+    #card1a {
+    margin-top: -31px;
+    margin-left: 0px;
+    
+    }
+    
+    #card1ap {
+    margin-top: -72px;
+    margin-left: 116px;
+    width: 112px;
+    height: 115px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 94px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    /* position: relative; */
+    }
+    #card1bp {
+    text-align: center;
+    font: normal normal normal 14px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    
+    width: 154px;
+    margin-left: 97px;
+    margin-top: 4px;
+    z-index: 60;
+    position: relative;
+    
+    }
+    
+    #card1b {
+    
+    margin-top: -4px;
+    
+    position: absolute;
+    
+    }
+    
+    #card1c {
+    margin-top: 6px;
+    position: absolute;
+    }
+    #card1cp {
+    
+    text-align: center;
+    font: normal normal normal 14px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #86878B;
+    
+    
+    width: 154px;
+    margin-left: 97px;
+    margin-top: 20px;
+    z-index: 60;
+    position: relative;
+    }
+    #card1d {
+    margin-top: -4px;
+    position: absolute;
+    }
+    
+    #card1dp {
+    
+    text-align: center;
+    font: normal normal normal 14px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #86878B;
+    
+    width: 164px;
+    
+    
+    margin-left: 97px;
+    margin-top: 14px;
+    z-index: 60;
+    position: relative;
+    }
+    #card1e {
+    margin-top: -4px;
+    position: absolute;
+    }
+    
+    #card1ep {
+    
+    text-align: center;
+    font: normal normal normal 14px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #86878B;
+    
+    width: 164px;
+    
+    
+    margin-left: 97px;
+    margin-top: 9px;
+    z-index: 60;
+    position: relative;
+    }
+    #card1f {
+    margin-top: 1px;
+    position: absolute;
+    }
+    
+    #card1fp {
+    
+    text-align: center;
+    font: normal normal normal 14px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #86878B;
+    
+    width: 208px;
+    
+    
+    
+    margin-left: 76px;
+    margin-top: 9px;
+    z-index: 60;
+    position: relative;
+    }
+    #card1g {
+    margin-top: 7px;
+    position: absolute;
+    }
+    #card1gp {
+    
+    text-align: center;
+    font: normal normal normal 14px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #86878B;
+    
+    width: 208px;
+    
+    
+    
+    margin-left: 75px;
+    margin-top: 9px;
+    z-index: 60;
+    position: relative;
+    }
+    #card1h {
+    margin-top: 114px;
+    border-radius: 0px 0px 5px 5px;
+    
+    position: absolute;
+    }
+    
+    #card1hp {
+    
+    text-align: center;
+    font: normal normal normal 14px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #86878B;
+    
+    width: 208px;
+    
+    
+    
+    margin-left: 97px;
+    margin-top: 9px;
+    z-index: 60;
+    position: relative;
+    }
+    
+    
+    /* card2 */
+    
+    #cardheader3 {
+    top: 420px;
+    left: 146px;
+    width: 343px;
+    height: 59px;
+    /* UI Properties */
+    background: transparent url('img/card_header_u266.png') 0% 0% no-repeat padding-box;
+    border-radius: 5px 5px 0px 0px;
+    opacity: 1;
+    position: absolute;
+    }
+    
+    #cardprice2 {
+    top: 479px;
+    left: 146px;
+    width: 343px;
+    height: 100px;
+    /* UI Properties */
+    background: transparent url('img/card_price_u268.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    }
+    
+    #u273 {
+    top: 577px;
+    left: 146px;
+    width: 343px;
+    height: 6px;
+    /* UI Properties */
+    background: transparent url('img/u273.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    }
+    
+    #u13a {
+    top: 582px;
+    left: 146px;
+    width: 343px;
+    height: 40px;
+    /* UI Properties */
+    background: transparent url('img/pricing_feature_u13.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    }
+    
+    #u13b {
+    top: 622px;
+    left: 146px;
+    width: 343px;
+    height: 40px;
+    /* UI Properties */
+    background: transparent url('img/pricing_feature_u13.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    }
+    
+    #u13c {
+    top: 662px;
+    left: 146px;
+    width: 343px;
+    height: 40px;
+    /* UI Properties */
+    background: transparent url('img/pricing_feature_u13.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    }
+    
+    #u13d {
+    top: 702px;
+    left: 146px;
+    width: 343px;
+    height: 40px;
+    /* UI Properties */
+    background: transparent url('img/pricing_feature_u13.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    }
+    
+    #u13e {
+    top: 742px;
+    left: 146px;
+    width: 343px;
+    height: 40px;
+    /* UI Properties */
+    background: transparent url('img/pricing_feature_u13.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    }
+    
+    #u13f {
+    top: 782px;
+    left: 146px;
+    width: 343px;
+    height: 40px;
+    /* UI Properties */
+    background: transparent url('img/pricing_feature_u13.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    }
+    
+    /* card3 */
+    
+    
+    #cardheader3x {
+    top: 420px;
+    left: 912px;
+    width: 343px;
+    height: 59px;
+    /* UI Properties */
+    background: transparent url('img/card_header_u266.png') 0% 0% no-repeat padding-box;
+    border-radius: 5px 5px 0px 0px;
+    opacity: 1;
+    position: absolute;
+    }
+    
+    #cardprice2x {
+    top: 479px;
+    left: 912px;
+    width: 343px;
+    height: 100px;
+    /* UI Properties */
+    background: transparent url('img/card_price_u268.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    }
+    
+    #u273x {
+    top: 577px;
+    left: 912px;
+    width: 343px;
+    height: 6px;
+    /* UI Properties */
+    background: transparent url('img/u273.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    }
+    
+    #u13ax {
+    top: 582px;
+    left: 912px;
+    width: 343px;
+    height: 40px;
+    /* UI Properties */
+    background: transparent url('img/pricing_feature_u13.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    }
+    
+    #u13bx {
+    top: 622px;
+    left: 912px;
+    width: 343px;
+    height: 40px;
+    /* UI Properties */
+    background: transparent url('img/pricing_feature_u13.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    }
+    
+    #u13cx {
+    top: 662px;
+    left: 912px;
+    width: 343px;
+    height: 40px;
+    /* UI Properties */
+    background: transparent url('img/pricing_feature_u13.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    }
+    
+    #u13dx {
+    top: 702px;
+    left: 912px;
+    width: 343px;
+    height: 40px;
+    /* UI Properties */
+    background: transparent url('img/pricing_feature_u13.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    }
+    
+    #u13ex {
+    top: 742px;
+    left: 912px;
+    width: 343px;
+    height: 40px;
+    /* UI Properties */
+    background: transparent url('img/pricing_feature_u13.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    }
+    
+    #u13fx {
+    top: 782px;
+    left: 912px;
+    width: 343px;
+    height: 40px;
+    /* UI Properties */
+    background: transparent url('img/pricing_feature_u13.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    }
+    
