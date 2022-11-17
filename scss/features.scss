@@ -1,0 +1,125 @@
+.features {
+    margin-top: 231px;
+    width: 1400px;
+    height: 596px;
+    /* UI Properties */
+    background: #1C1C1C 0% 0% no-repeat padding-box;
+    z-index: 1;
+  }
+  
+   .erat { 
+  margin-top: 90px;
+  margin-right: 319px;
+  width: 314px;
+  height: 80px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 600 30px/43px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 120;
+  float: right;
+  
+   }
+  
+   .eratp {
+  
+    text-align: left;
+  font: normal normal normal 14px/20px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  float: right;
+  margin-top: 226px;
+  margin-right: -447px;
+   }
+  
+   .featureslogo {
+  
+    width: 389px;
+  height: 169px;
+  margin-top: 226px;
+  margin-left: 200px;
+   }
+  
+   .eratp2 {
+  
+    text-align: left;
+  font: normal normal normal 14px/20px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  margin-left: 835px;
+  margin-top: -46px;
+   }
+  
+   .elipse {
+  
+  width: 50px;
+  height: 50px;
+  /* UI Properties */
+  background: #E27866 0% 0% no-repeat padding-box;
+  
+  border-radius: 100%;
+  align-items: center;
+  text-align: center;
+  margin-left: 767px;
+  margin-top: -83px;
+   }
+  
+   #eye {
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+  
+    width: 27px;
+  height: 18px;
+  color: white;
+  transition: 0.5s;
+   }
+  
+   .eratp3 {
+  
+    text-align: left;
+    font: normal normal normal 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-left: 835px;
+    margin-top: -46px;
+   }
+  
+   .elipse2 {
+  
+    width: 50px;
+  height: 50px;
+  /* UI Properties */
+  background: #E27866 0% 0% no-repeat padding-box;
+  
+  border-radius: 100%;
+  align-items: center;
+  text-align: center;
+  margin-left: 767px;
+  margin-top: 53px;
+   }
+  
+   #chat {
+  
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+  
+    width: 27px;
+  height: 18px;
+  color: rgb(19, 18, 18);
+  transition: 0.5s;
+   }
+  
+   #chat:hover {
+  
+  transform: rotate(360deg);
+   }
+  
+   #eye:hover { 
+    transform: scale(130%);
+    
+   }
+  

@@ -1,0 +1,377 @@
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+  #divider {
+
+    margin-top: 19px;
+margin-left: 142px;
+width: 84px;
+height: 22px;
+
+background: transparent url('/app/img/divider_white_u72.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+  }
+
+  #insipidity {
+    color: #FFFFFF;
+    text-align: left;
+    font: normal normal 600 16px/23px Montserrat;
+    letter-spacing: 0px;
+    opacity: 0.8;
+    margin-top: 13px;
+    margin-left: 142px;
+    position: relative;
+  }
+
+ img.biglogo {
+    margin-top: 303px;
+    margin-left: 142px;
+width: 247px;
+height: 108px;
+
+opacity: 1;
+  }
+
+  .rectangle23 {
+margin-top: 87px;
+margin-left: 142px;
+width: 135px;
+height: 42px;
+
+border: 2px solid #FFFFFF;
+opacity: 1;
+background: transparent;
+color: white;
+font-family: montserrat;
+  }
+
+  .rectangle23:hover {
+
+    background-color: white;
+    color:black;
+
+}
+
+
+/* checkbox */
+
+input#monthly  {
+
+  margin-left: 20px;
+}
+#monthly2 {
+
+margin-top: 0px;
+margin-right: 20px;
+}
+#yearly2 {
+
+  margin-top: 0px;
+  margin-left: 20px;
+  }
+
+input[type="radio"] {
+
+  
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  border: 3px solid yellowgreen;
+  position: relative;
+  display:inline-flex;
+}
+
+input[type="radio"]::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: yellowgreen;
+  border-radius: 100px;
+  margin-top: 0;
+  margin-right: 0;
+  left: 0;
+  bottom: 0;
+  /* margin: auto; */
+  transform: scale(0);
+  transition: 0.3s;
+  border-radius: 100px;
+
+}
+
+input[type="radio"]:checked::before {
+
+  transform: scale(0.6);
+}
+
+/* footer */
+
+#cfooter {
+  padding-top: 20px;
+  top: 711px;
+  left: 0px;
+  width: 1400px;
+  height: 105px;
+  /* UI Properties */
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 3px #00000061;
+  opacity: 1;
+
+}
+ #cfooter h1 {
+/* Layout Properties */
+top: 730px;
+left: 151px;
+
+
+font: normal normal 600 20px/24px Montserrat;
+letter-spacing: 0px;
+color: #333333;
+opacity: 1;
+margin-left: 151px;
+}
+
+#cfooter p {
+
+  top: 759px;
+left: 152px;
+width: 394px;
+height: 38px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 14px/20px Montserrat;
+letter-spacing: 0px;
+color: #86878B;
+opacity: 1;
+margin-left: 151px;
+}
+
+#flogo {
+
+  margin-top: -44px;
+margin-left: 152px;
+width: 16px;
+height: 30px;
+/* UI Properties */
+background: transparent url(/app/img/facebook-logo.svg) 0% 0% no-repeat padding-box;
+opacity: 0.65;
+
+}
+
+
+
+#social {
+
+  display: flex;
+  justify-content: right;
+  text-align: right;
+  gap:  150px;
+  margin-right: 200px;
+  margin-top: -34px;
+}
+
+
+
+
+ /* panel */
+
+ 
+}
+
+
+/* customers */
+
+
+
+/* contacts */
+
+
+.contacts {
+
+  top: 1495px;
+  left: 0px;
+width: 1400px;
+height: 573px;
+background: #E27866 0% 0% no-repeat padding-box;
+position: absolute;
+}
+
+.contacts h1 {
+  margin-top: 50px;
+  left: 580px;
+text-align: center;
+width: 240px;
+height: 44px;
+/* UI Properties */
+text-align: center;
+font: normal normal 600 36px/43px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+position: absolute;
+
+}
+
+.contacts p {
+margin-top: 164px;
+left: -10px;
+width: 390px;
+height: 18px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 14px/20px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+position: absolute;
+}
+
+
+/* form */
+
+
+.aboutus {
+  left: 505px;
+  width: 390px;
+  height: 314px;
+  /* UI Properties */
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 6px #00000029;
+  border-radius: 5px;
+  position: absolute;
+  margin-top: 227px;
+  
+}
+
+
+
+.aboutus button{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 61px;
+  margin-top: 50px;
+  font-size: 20px;
+  width: 390px;
+  padding:10px;
+  border:none;
+  background:#41D395;
+  color:#fff;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 50px;
+
+
+  letter-spacing: 0px;
+color: #FFFFFF;
+  
+  }
+  
+
+  
+  .aboutus button:hover{
+    background:rgb(243, 141, 63);
+  }
+
+.aboutus input{
+  padding-left: 50px;
+  margin-top:40px ;
+  width:300px;
+  color: #000;
+  border:0 ;
+  border-bottom: 1px solid #D6D6D6;
+
+
+}
+.aboutus input::placeholder{
+  color: #ccc;
+}
+
+.aboutus input:focus{
+  outline: 0;
+  border-color:#DEDEDE ;
+}
+
+
+label {
+
+  text-align: left;
+  position: absolute;
+
+  margin-left: -124px;
+  display: inline-block;
+  margin-top: 42px;
+}
+
+
+.apacia {
+
+  top: 2062px;
+  left: 0px;
+  width: 1400px;
+  height: 124px;
+  /* UI Properties */
+  background: #1C1C1C 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.fb {
+  position: absolute;
+  top: 49px;
+  left: 139px;
+  width: 100%;
+  height: 100%;
+/* UI Properties */
+background: transparent url('/app/img/facebook-logo.svg') 0% 0% no-repeat padding-box;
+}
+
+
+.insta2 {
+  position: absolute;
+  top: 49px;
+  left: 258px;
+  width: 100%;
+  height: 100%;
+/* UI Properties */
+background: transparent url('/app/img/instagram-logo.svg') 0% 0% no-repeat padding-box;
+}
+
+
+#apaciap {
+
+  text-align: left;
+  font: normal normal normal 18px/14px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 0.5;
+  margin-left: 1186px;
+  margin-top: 90px;
+}
+
+#twit {
+  position: absolute;
+  top: 49px;
+  left: 395px;
+  width: 100%;
+  height: 100%;
+  background: transparent url('/app/img/twitter.svg') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+#pint {
+  position: absolute;
+  top: 49px;
+  left: 540px;
+  width: 100%;
+  height: 100%;
+  background: transparent url('/app/img/pinterest.svg') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
