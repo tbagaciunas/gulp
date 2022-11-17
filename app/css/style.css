@@ -283,7 +283,7 @@ margin-left: 152px;
 width: 16px;
 height: 30px;
 /* UI Properties */
-background: transparent url(app/img/facebook-logo.svg) 0% 0% no-repeat padding-box;
+background: transparent url('app/img/facebook-logo.svg') 0% 0% no-repeat padding-box;
 opacity: 0.65;
 
 }
@@ -661,7 +661,7 @@ opacity: 1;
   width: 70px;
   height: 70px;
   /* UI Properties */
-  background: transparent url('/app/img/avatar_2_u231.png') 0% 0% no-repeat padding-box;
+  background: transparent url('app/img/avatar_2_u231.png') 0% 0% no-repeat padding-box;
   opacity: 1;
   position: absolute;
   }
@@ -1136,7 +1136,7 @@ opacity: 1;
         width: 64px;
         height: 2px;
         /* UI Properties */
-        background: transparent url(app/img/divider_orange_u7\ copy\ 3.svg) 0% 0% no-repeat padding-box;
+        background: transparent url('app/img/divider_orange_u7_copy_3.svg') 0% 0% no-repeat padding-box;
         margin-top: 21px;
         margin-left: 669px;
        }
@@ -1322,7 +1322,7 @@ opacity: 1;
     width: 64px;
     height: 2px;
     /* UI Properties */
-    background: transparent url(app/img/divider_orange_u7\ copy.svg) 0% 0% no-repeat padding-box;
+    background: transparent url('app/img/divider_orange_u7_copy.svg) 0% 0% no-repeat padding-box;
     }
     
     /* cards */
@@ -1596,7 +1596,7 @@ opacity: 1;
     width: 343px;
     height: 40px;
     /* UI Properties */
-    background: transparent url('img/pricing_feature_u13.png') 0% 0% no-repeat padding-box;
+    background: transparent url('/appimg/pricing_feature_u13.png') 0% 0% no-repeat padding-box;
     opacity: 1;
     position: absolute;
     }
